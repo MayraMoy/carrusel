@@ -1,27 +1,33 @@
+/* Establece la fuente principal para el documento */
 html {
     font-family: sans-serif;
 }
 
+/* Centra el contenido y limita el ancho máximo */
 body {
     max-width: 800px;
     margin: 0 auto;
 }
 
+/* Contenedor de la imagen principal, permite posicionar elementos relativos */
 .full-img {
     position: relative;
 }
 
+/* La imagen principal ocupa todo el ancho y se muestra como bloque */
 .full-img img {
     width: 100%;
     display: block;
 }
 
+/* Las miniaturas ocupan el 20% del ancho, se alinean a la izquierda y tienen cursor de puntero */
 .thumb-bar img {
     width: 20%;
     float: left;
     cursor: pointer;
 }
 
+/* Overlay para oscurecer/aclarar la imagen principal, cubre toda el área y tiene transición suave */
 .overlay {
     position: absolute;
     top: 0;
@@ -32,6 +38,7 @@ body {
     transition: background-color 0.3s;
 }
 
+/* Estilos para el botón de oscurecer/aclarar: posición absoluta, fondo blanco, sin borde y con negrita */
 button {
     position: absolute;
     top: 10px;
