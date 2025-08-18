@@ -1,4 +1,3 @@
-console.log("MAYRA MOYANO")
 // Selecciona la imagen principal que se muestra y la barra de miniaturas
 var displayedImage = document.querySelector('.displayed-img');
 var thumbBar = document.querySelector('.thumb-bar');
@@ -20,6 +19,7 @@ var alts = {
     'img/pic4.jpg': 'Sección de la pared de la tumba de un faraón',
     'img/pic5.jpg': 'Polilla grande en una hoja'
 };
+console.log("MAYRA MOYANO")
 /* Verifica que los elementos existen antes de usarlos */
 if (displayedImage && thumbBar && btn && overlay) {
     /* Recorre el arreglo de imágenes y crea las miniaturas */
