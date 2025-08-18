@@ -1,3 +1,4 @@
+console.log("MAYRA MOYANO")
 // Selecciona la imagen principal que se muestra y la barra de miniaturas
 var displayedImage = document.querySelector('.displayed-img');
 var thumbBar = document.querySelector('.thumb-bar');
